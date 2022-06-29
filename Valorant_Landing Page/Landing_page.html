@@ -1,0 +1,121 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <img src="/img/logo/4a24583ea649f9df1415775a37c84ae5.png" alt="" />
+        <nav>
+          <ul>
+            <li><a href="#">Game Info</a></li>
+            <li><a href="#cont2">Agents</a></li>
+            <li><a href="#cont3">Maps</a></li>
+            <li><a href="#cont4">Arsenal</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="cont1">
+        <h1>WE ARE VALORANT</h1>
+        <div>
+          <section>
+            <h2>DEFY THE LIMITS</h2>
+            <p>
+              Blend your style and experience on a <br> global, competitive stage.
+              You have 13 <br> rounds to attack and defend your side <br> using sharp
+              gunplay and tactical abilities. <br> And, with one life per-round,
+              you'll need <br> to think faster than your opponent if you <br> want to
+              survive. Take on foes across <br> Competitive and Unranked modes as
+              well <br> as Deathmatch and Spike Rush.
+            </p>
+            <a href="#"><button>Download Now</button></a>
+          </section>
+          <iframe
+            src="https://www.youtube.com/embed/le474A3jBxA?vq=hd1080&autoplay=1&loop=1&fs=0&controls=0&disablekb=1&playlist=le474A3jBxA&mute=1"
+            width="840"
+            height="472"
+            title="DIVE IN // Episode 5: Act I Kickoff - VALORANT"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+      <div id="cont2">
+        <h2>Agents</h2>
+        <h1>AGENTS</h1>
+        <div>
+            <section>
+                <ul>
+                    <li><a href="#cont2" onclick="imgSlider('/brimstone.png')">BRIMSTONE</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Phoenix.png')">PHOENIX</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Sage.png')">SAGE</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Sova.png')">SOVA</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#cont2" onclick="imgSlider('/Viper.png')">VIPER</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Cypher.png')">CYPHER</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Reyna.png')">REYNA</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Killjoy.png')">KILLJOY</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#cont2" onclick="imgSlider('/Breach.png')">BREACH</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Omen.png')">OMEN</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/jett.png')">JETT</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/raze.png')">RAZE</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#cont2" onclick="imgSlider('/Skye.png')">SKYE</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Yoru.png')">YORU</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Astra.png')">ASTRA</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/KAYO.png')">KAY/O</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#cont2" onclick="imgSlider('/Chamber.png')">CHAMBER</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Neon.png')">NEON</a></li>
+                    <li><a href="#cont2" onclick="imgSlider('/Fade.png')">FADE</a></li>
+                </ul>
+            </section>
+            <div>
+                <img src="/brimstone.png" alt=""  class="agent">
+            </div>
+        </div>
+      </div>
+      <div id="cont3">
+        <h2>Maps</h2>
+        <h1>MAPS</h1>
+        <div class="maps_gg">
+            <ul>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Fracture.png')">FRACTURE</a></li>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Ascent.png')">ASCENT</a></li>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Bind.png')">BIND</a></li>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Icebox.png')">ICEBOX</a></li>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Breeze.png')">BREEZE</a></li>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Split.png')">SPLIT</a></li>
+                <li><a href="#cont3" onclick="imgSlider1('/Maps/Loading_Screen_Haven.png')">HAVEN</a></li>
+            </ul>
+            <div>
+                <img src="/Maps/Loading_Screen_Fracture.png" alt="" width="800" height="480" class="map1">
+            </div>
+        </div>
+      </div>
+      <div id="cont4">
+        <h2>Arsenal</h2>
+        <h1>Arsenal</h1>
+      </div>
+    </div>
+    <script type="text/javascript">
+        function imgSlider(anything)
+        {
+            document.querySelector('.agent').src = anything;
+        }
+
+        function imgSlider1(anything)
+        {
+            document.querySelector('.map1').src = anything;
+        }
+    </script>
+  </body>
+</html>
